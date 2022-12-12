@@ -1,0 +1,312 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: black;
+}
+
+main{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Estilos Generales */
+
+/* Botones de Agregado, Edicion y Borrado*/
+
+.imgRedes{
+    width: 25px;
+}
+
+.btn_combo, .btn_mas{
+    text-align: center;
+    
+}
+
+.btn_combo img{
+    width: 20px;
+    margin: 2px;
+}
+
+
+
+.btn_mas img{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+.colEscudo{
+    justify-content: center !important;
+   /* justify-items: center !important;*/
+
+    /*align-content: center !important;*/
+}
+.escudo{
+    width: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Seccion CONTENEDOR HEADER */
+.contenedor_Header {
+    background-color: white;
+}
+
+.contenedor_Header .row_Nav{
+    align-items: center;
+    background-color: rgb(9, 9, 9);
+}
+
+.contenedor_Header .row_Nav .col{
+    margin: 0 !important;
+    padding: 0 !important;  
+}
+
+.contenedor_Header .row_Nav .navbar .container-fluid .navbar-brand .logo_ARGP{
+    width: 300px;
+}
+
+.contenedor_Header .row_Nav .navbar .container-fluid .navbar-toggler{
+    background-color: white;
+}
+
+.contenedor_Header .row_Nav .navbar .container-fluid .collapse .nav-link{
+ color: white;
+}
+
+.redes{
+    text-align: center;
+}
+
+
+/* Seccion CONTENEDOR PRINCIPAL */
+
+.contenedor_Principal{
+    background-color: white;
+    border-left: 0px solid rgba(0, 0, 0, 0.231);
+    border-right: 0px solid rgba(0, 0, 0, 0.231);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.231);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.contenedor_Principal .imgBanner{
+    width: 100%;
+    position: relative;
+}
+
+.contenedor_Principal .contenedor_Foto{
+    position: absolute;
+    display: flex;
+    margin-top: -11%;
+}
+
+.contenedor_Principal .contenedor_Foto .imgFoto{
+    width: 200px;
+    border-radius: 180px;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.contenedor_Principal .contenedor_Foto .imgEdicion{
+    width: 24px;
+    height: 24px;
+    margin-top: 110%;
+    
+}
+
+.contenedor_Principal .contenedorDescripcion{
+    margin-top: 70px;
+    margin-left: 15px;
+
+}
+.contenedor_Principal .contenedorDescripcion .col_Logo2{
+    text-align: end;
+    
+}
+
+.contenedor_Principal .contenedorDescripcion .imgLogo2{
+    width: 300px;
+}
+
+.contenedor_Principal .contenedorDescripcion .col_fin{
+    margin-bottom: 15px;
+}
+
+
+/* GENERAL CONTENEDOR */
+.contenedor{
+    background-color: white;
+    border-left: 2px solid rgba(0, 0, 0, 0.231);
+    border-right: 2px solid rgba(0, 0, 0, 0.231);
+    border-top: 2px solid rgba(0, 0, 0, 0.231);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.231);
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+/* Seccion ACERCA DE */
+
+
+.contenedor_Acercade{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.contenedor_Acercade .descripcion p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Seccion CONTENEDOR EXPERIENCIA y EDUCACION */
+
+.exp_edu{
+
+}
+
+
+/* Seccion CONTENEDOR EXPERIENCIA */
+
+.contenedor_Experiencia{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+
+
+/* Seccion CONTENEDOR EDUCACION */
+
+.contenedor_Educacion{
+    margin-left: 10px;
+
+}
+
+
+
+
+
+/* Seccion CONTENEDOR SKILL */
+.contenedor_Skills{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.colSkill{
+    text-align: center;
+}
+
+
+
+
+
+/* Seccion CONTENEDOR PROYECTOS */
+
+.contenedor_Proyectos{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Seccion CONTENEDOR CONTACTO */
+
+.contenedor_Contacto{
+    margin-left: 10px;
+}
+
+.contenedorFormulario{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+/* Seccion FOOTER */
+.CopyRight{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.CopyRight i{
+    margin-left: 10px;
+}
+
+
+
+/* Media Query*/
+@media all and (max-width: 1366px){
+    .contenedor_Principal .contenedor_Foto{
+        margin-top: -16%;
+    }
+}
+
+
+@media all and (max-width: 1199px){
+    .contenedor_Principal .contenedor_Foto{
+        margin-top: -11%;
+    }
+}
+
+@media all and (max-width: 991px){
+    .contenedor_Principal .contenedor_Foto{
+        margin-top: -21%;
+    }
+}
+
+@media all and (max-width: 767px){
+    .contenedor_Principal .contenedor_Foto{
+        margin-top: -31%;
+    }
+}
+
+
+@media all and (max-width: 575px){
+    .contenedor_Principal .contenedor_Foto{
+        margin-top: -15%;
+    }
+
+    .contenedor_Header .row_Nav .navbar .container-fluid .navbar-brand .logo_ARGP{
+        width: 200px;
+    }
+
+    .contenedor_Principal .contenedor_Foto .imgFoto{
+        width: 50px;
+    }
+    .colSkillvacia{
+        display: none;
+    }
+
+}
+
+
+@media all and (max-width: 356px){
+    .contenedor_Principal .contenedor_Foto{
+            margin-top: -25%;
+        }
+
+    }

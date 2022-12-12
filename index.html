@@ -4,153 +4,465 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Marcelo Velarde</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap-5.2.1-dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Marcelo Velarde</title>
+    <link rel="shortcut icon" href="img/ico/icono01.png">
 </head>
 <body>
-    <header>
+    <!-- Bootstrap JS Instalación atada, compilada y minimizada-->
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
 
-        <div class="Barra_Menu">
-            <!-- Sector Nombre y Apellido-->
-            <div class="Nombre_Apellido">
-                <span>Marcelo Velarde</span>
-            </div>
-            
-            <!-- Sector iconos Redes-->
-            <div class="Redes">
-                <span>Aca van las redes</span>
-            </div>
-            
-            <!-- Sector Boton de Logueo-->
-            <div class="Boton_Logueo">
-                <button>Loguin</button>
-            </div>
+    <header class="sticky-top">
 
-        </div>
+        <section class="contenedor_Header container-fluid">
+            <div class="row row_Nav">
+                <div  class="col col-lg-9 col-md-11 col-sm-10 col-10 order-xs-1 order-sm-1 order-md-1 order-lg-1">
+
+                    <nav class="navbar navbar-expand-md">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <img class="logo_ARGP d-inline-block align-text-top" src="img/logos/LogoARG_PROG.png" alt="LogoArgentinaPrograma">
+                          </a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0" >
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html#aad">Acerca de</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html#exp">Experiencia</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html#edu">Educacion</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html#skills">Skills</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html#pro">Proyectos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html#con">Contacto</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div  class="col col-lg-2 col-md-12 col-sm-12 col-12 order-3 order-sm-3 order-md-3 order-lg-2">
+                    <div class="redes">
+                        <img class="imgRedes" src="img/redes/facebook.png" alt="facebook">
+                        <img class="imgRedes" src="img/redes/instagram.png" alt="instagram">
+                        <img class="imgRedes" src="img/redes/twitter.png" alt="twitter">
+                        <img class="imgRedes" src="img/redes/whatsapp.png" alt="whatsapp">
+                    </div>
+                
+                </div>
+
+                <div class="col col-lg-1 col-md-1 col-sm-2 col-2 order-2 order-sm-2 order-md-2 order-lg-3">
+                    <button>Login</button>
+                </div>
+
+            </div>
+        </section>
 
     </header>
+    
+    <main>
+        <!-- SECCION PRINCIPAL -->
+        <section class="contenedor_Principal">
+            
+            <div class="imgBanner">
+                <img class="imgBr img-fluid" src="img/banners/banner_00.jpg" alt="Banner" width="100%">
+            </div>
+            
+            <div class="contenedor_Foto">
+                <img class="imgFoto" src="img/fotos/foto00.PNG" alt="foto">
+                <img class="imgEdicion" src="img/edicion/lapiz.png" alt="edicion">
+            </div>
+            
+            <div class="contenedorDescripcion">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-2 col-12"> 
+                            <h1>Nombre y Apellido</h1>
+                            <h5>Titulo universitario</h5>
+                            <h5>Buenos Aires (Argentina)</h5>
+                        </div>
+                        <div class="col_Logo2 col-lg-4 col-md-4 col-sm-2 col-12"> 
+                            <img class="imgLogo2" src="img/logos/usal.jpg" alt="logo2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col_fin col-lg-7 col-md-8 col-sm-2 col-12">
+                            <button>Boton 1</button>
+                            <button>Boton 2</button>
+                            <button>Boton 3</button>
+                        </div>
 
-    <section class="Personal">
+                    </div>
+                </div>
+            </div>
 
-        <!-- Sector del Banner-->
-        <div class="banner">
-            <span>Aca va el Banner</span>
-        </div>
+        </section>
+        
+        <!-- SECCION ACERCA DE -->
+        <section class="contenedor" >
+            <div class="contenedor_Acercade container-fluid">
+                <div class="row">
+                    <div class="col-11">
+                        <div class="tituloPrincipal">
+                            <h1 id="aad">Acerca de mi</h1>
+                        </div>
+                    </div>
+                    <div class="btn_combo col-1">
+                        <img src="img/edicion/lapiz.png" alt="edicion">
+                        <img src="img/edicion/tacho.png" alt="borrar">
+                    </div>    
+                </div>
 
-        <!-- Sector de la imagen Personal-->
-        <div class="imagen_Personal">
-            <span>Aca va la imagen Personal</span>
-        </div>
+                <div class="row">
+                    <div class="col-11">
+                        <article class="descripcion">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur quidem est nobis eos, provident, voluptatum ratione deserunt, iure reprehenderit deleniti commodi eveniet blanditiis distinctio vero aspernatur totam quae cumque.
+                            Aliquid tenetur magni incidunt officiis, nobis quae, suscipit officia consectetur nam ducimus iure laudantium minus at, cupiditate exercitationem. Optio aperiam hic officia officiis ex doloremque rem maxime harum quaerat qui.
+                            Vitae maxime nam facere id odio quod deleniti, fugiat ut exercitationem, corrupti esse aliquid. Atque asperiores rerum nam. Soluta quasi aliquid a autem quas consequatur, cupiditate adipisci nihil ratione illo!
+                            Veritatis reiciendis debitis labore temporibus quos, nobis officiis optio eveniet commodi! Ipsa excepturi ratione aliquid natus ea voluptatem asperiores et sapiente porro laborum culpa commodi, rerum pariatur reiciendis hic nesciunt!</p>
+                        </article>
 
-        <!-- Sector datos Personales-->
-        <div class="datos_Personales">
-            <h1>Marcelo Velarde</h1>
-            <h3>Titulo universitario</h3>
-            <h3>Buenos Aires (Argentina)</h3>
-        </div>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
+            </div>
+ 
+        </section>
+        
+        <!-- SECCION EXPERIENCIA Y EDUCACION -->
+        <section class="contenedor">
+            <section class="experiencia">
+                <div class="contenedor_Experiencia container-fluid">
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="tituloPrincipal">
+                                <h1 id="exp">Experiencia</h1>
+                            </div>
+                        </div>
+                        <div class="btn_mas col-1">
+                            <img src="img/edicion/mas.png" alt="agregar">
+                        </div>    
+                    </div>
 
-        <!-- Sector de la imagen ArgProg-->
-        <div class="imagen_ArgPro">
-            <img src="" alt="">
-        </div>
+                    <div class="row">
+                        <div class="colEscudo col-1 d-flex">
+                            <img class="escudo" src="img/logos/escudo.jpg" alt="escudo">
+                        </div>
+                        <div class="colContenido col-10">
+                            <div class="tituloExp">
+                                <h3>Frontend Developer</h3>
+                            </div>
+                            <div class="fechaExp">
+                                <h5>01/01/1986</h5>
+                            </div> 
+                            <div class="descripcionExp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam voluptate distinctio dolore consequatur, quaerat ratione esse illum architecto porro illo voluptatum 
+                                    nobis cum obcaecati. Accusantium fuga reprehenderit error explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="btn_combo col-1">
+                            <img src="img/edicion/lapiz.png" alt="edicion">
+                            <img src="img/edicion/tacho.png" alt="borrar">
+                        </div>
+                    </div>
+                </div>
+     
+            </section>
 
-    </section>
+            <section class="educacion">
+                <div class="contenedor_Educacion container-fluid">
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="tituloPrincipal">
+                                <h1 id="edu">Educación</h1>
+                            </div>
+                        </div>
+                        <div class="btn_mas col-1">
+                            <img src="img/edicion/mas.png" alt="agregar">
+                        </div>    
+                    </div>
+
+                    <div class="row">
+                        <div class="colEscudo col-1 d-flex">
+                            <img class="escudo" src="img/logos/escudo.jpg" alt="escudo">
+                        </div>
+                        <div class="colContenido col-10">
+                            <div class="tituloExp">
+                                <h3>Título</h3>
+                            </div>
+                            <div class="fechaExp">
+                                <h5>Fecha</h5>
+                            </div> 
+                            <div class="descripcionExp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam voluptate distinctio dolore consequatur, quaerat ratione esse illum architecto porro illo voluptatum 
+                                    nobis cum obcaecati. Accusantium fuga reprehenderit error explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="btn_combo col-1">
+                            <img src="img/edicion/lapiz.png" alt="edicion">
+                            <img src="img/edicion/tacho.png" alt="borrar">
+                        </div>
+                    </div>
+                   
+                </div>
+     
+            </section>
+
+        </section>
+        
+        <!-- SECCION HARD & SOFT SKILL -->
+        <section class="contenedor">
+            <div class="contenedor_Skills container-fluid">
+                <div class="row">
+                    <div class="col-11">
+                        <div class="tituloPrincipal">
+                            <h1 id="exp">Hard & Soft Skills</h1>
+                        </div>
+                    </div>
+                    <div class="btn_mas col-1">
+                        <img src="img/edicion/mas.png" alt="agregar">
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <div class="colSkillvacia col">
+
+                    </div>
+
+                    <div class="colSkill col">
+                        <div class="row">
+                            <div class="titulo_habilidad">
+                                <h4>Habilidad 1</h4>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            <div class="btn_comboSkil">
+                                <img src="img/edicion/lapiz.png" alt="edicion">
+                                <img src="img/edicion/tacho.png" alt="borrar">
+                            </div>  
+                        </div>
+                                               
+                    </div>
+
+                    <div class="colSkillvacia col">
+
+                    </div>
+
+                    <div class="colSkill col">
+                        <div class="row">
+                            <div class="titulo_habilidad">
+                                <h4>Habilidad 2</h4>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            <div class="btn_comboSkil">
+                                <img src="img/edicion/lapiz.png" alt="edicion">
+                                <img src="img/edicion/tacho.png" alt="borrar">
+                            </div>  
+                        </div>
+                                               
+                    </div>
+
+                    <div class="colSkillvacia col">
+
+                    </div>
+                    
+                    <div class="colSkill col">
+                        <div class="row">
+                            <div class="titulo_habilidad">
+                                <h4>Habilidad 3</h4>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            <div class="btn_comboSkil">
+                                <img src="img/edicion/lapiz.png" alt="edicion">
+                                <img src="img/edicion/tacho.png" alt="borrar">
+                            </div>  
+                        </div>
+                                               
+                    </div>
+
+                    <div class="colSkillvacia col">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PROYECTOS -->
+        <section class="contenedor">
+            <div class="contenedor_Proyectos container-fluid">
+                <div class="row">
+                    <div class="col-11">
+                        <div class="tituloPrincipal">
+                            <h1 id="pro">Proyectos</h1>
+                        </div>
+                    </div>
+                    <div class="btn_mas col-1">
+                        <img src="img/edicion/mas.png" alt="agregar">
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="colProyectovacia col-2">
+                        
+                    </div>
+        
+                    <div class="col-2">
+                        <div class="card" aria-hidden="true">
+                            <img src="img/proyectos/proyecto00.png" class="card-img-top" alt="proyecto_Portfolio">
+                          
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius facere tenetur eaque consequatur, nostrum sequi asperiores optio recusandae quasi quas at voluptatem.</p>
+                              <a href="index.html" class="btn btn-primary">Ir al Sitio</a>
+                            </div>
+                        </div>
+                        <div class="btn_comboSkil">
+                            <img src="img/edicion/lapiz.png" alt="edicion">
+                            <img src="img/edicion/tacho.png" alt="borrar">
+                        </div>  
+                    </div>
+                    <div class="colProyectovacia col-1">
+
+                    </div>
+                    <div class="col-2">
+                        <div class="card" aria-hidden="true">
+                            <img src="img/proyectos/proyecto00.png" class="card-img-top" alt="proyecto_Portfolio">
+                          
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius facere tenetur eaque consequatur, nostrum sequi asperiores optio recusandae quasi quas at voluptatem.</p>
+                              <a href="index.html" class="btn btn-primary">Ir al Sitio</a>
+                            </div>
+                        </div>
+                        <div class="btn_comboSkil">
+                            <img src="img/edicion/lapiz.png" alt="edicion">
+                            <img src="img/edicion/tacho.png" alt="borrar">
+                        </div>  
+                    </div>
+                    <div class="colProyectovacia col-1">
+                        
+                    </div>
+                    <div class="col-2">
+                        <div class="card" aria-hidden="true">
+                            <img src="img/proyectos/proyecto00.png" class="card-img-top" alt="proyecto_Portfolio">
+                          
+                            <div class="card-body">
+                              <h5 class="card-title">Título</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius facere tenetur eaque consequatur, nostrum sequi asperiores optio recusandae quasi quas at voluptatem.</p>
+                              <a href="index.html" class="btn btn-primary">Ir al Sitio</a>
+                            </div>
+                        </div>
+                        <div class="btn_comboSkil">
+                            <img src="img/edicion/lapiz.png" alt="edicion">
+                            <img src="img/edicion/tacho.png" alt="borrar">
+                        </div>  
+                    </div>
+                    <div class="colProyectovacia col-2">
+                        
+                    </div>
+                </div>
+        </section> 
+        
+        <!-- SECCION CONTACTO -->
+        <section class="contenedor">
+            <div class="contenedor_Contacto container-fluid">
+               <div class="row">
+                    <div class="col">
+                        <div class="tituloPrincipal">
+                            <h1 id="con">Contacto</h1>
+                        </div>
+                    </div>
+                </div>
+               <div class="row">
+                <div class="col">
+                    <div class="contenedorFormulario">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Nombre:</label>
+                                <input class="form-control" type="text" placeholder="Escriba su nombre">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Apellido:</label>
+                                <input class="form-control" type="text" placeholder="Escriba su apellido">
+                            </div>
+
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Correo Electronico:</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Sexo</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                    <label class="form-check-label" for="exampleRadios1">Femenino</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">Maculino</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">Otro</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Tipo de Consulta:</label>
+                                <select class="form-control">
+                                    <option>Problemas con la visualizacion del Sitio</option>
+                                    <option>No recibi respuesta a mi consulta</option>
+                                    <option>Otro problema</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Escriba su consulta:</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+                
 
 
-    <section class="AcercaDe">
 
-        <!-- Sector del Titulo-->
-        <div class="tituloPrincipal">
-            <h1>Acerca de</h1>
-        </div>
+                
+        </section>
 
-        <!-- Sector descrepcion-->
-        <div class="descripcion">
-            <p>Licenciado en sistemas, actualmente entrando en el terreno de la programacion</p>
-        </div>
-
-    </section>
-
-    <section class="Experiencia">
-
-        <!-- Sector del Titulo-->
-        <div class="tituloPrincipal">
-            <h1>Experiencia</h1>
-        </div>
-
-        <!-- Sector Logo Empresa-->
-        <div class="img_Experiencia">
-            <img src="" alt="">
-        </div>
-
-        <!-- Sector Descripcion Empresa-->
-        <div class="descripcionExp">
-            <h1>Programador</h1>
-            <h3>Argentina Programa</h3>
-            <h5>2022 - actualidad (2 meses)</h5>
-            <h6>CABA, Argentina</h6>
-        </div>
-
-    </section>
-
-    <section class="Formacion">
-
-        <!-- Sector del Titulo-->
-        <div class="tituloPrincipal">
-            <h1>Educacion</h1>
-        </div>
-
-        <!-- Sector Logo Centro de Formacion-->
-        <div class="img_Educacion">
-            <img src="" alt="">
-        </div>
-
-        <!-- Sector Descripcion Centro de Educacion-->
-        <div class="descripcionEdu">
-            <h1>Se programar</h1>
-            <h3>Argentina Programa</h3>
-            <h5>2022 - 2022 (7 meses)</h5>
-        </div>
-
-        <!-- Sector Descripcion Centro de Educacion-->
-        <div class="descripcionEdu">
-            <h1>Licenciatura en Sistemas de Informacion</h1>
-            <h3>Universidad del Salvador</h3>
-            <h5>2008 - 2017 (9 años)</h5>
-        </div>
-
-    </section>
-
-    <section class="Hard Skill & Soft Skill">
-
-        <!-- Sector del Titulo-->
-        <div class="tituloHSSS">
-            <h1>Microsoft - Windows 10</h1>
-        </div>
-
-        <!-- Sector Barra de %-->
-        <div class="img_Educacion">
-            <img src="" alt="">
-        </div>
-
-    </section>
-
-    <section class="Proyectos">
-
-        <!-- Sector del Titulo-->
-        <div class="Proyecto">
-            <h1>PortfolioWEB - Marcelo Velarde</h1>
-            <p>He desarrolado este sitio Web, aplicando todo lo aprendido en el curso de Argentina Programa</p>
-        </div>
-
-
-    </section>
-
-
+    </main>
+    
     <footer>
+
         <div class="CopyRight">
             <span>Copyright 2022 <i> © Copyright Marcelo Velarde</i> </span>
         </div>
+
     </footer>
-    
+
 </body>
 </html>
